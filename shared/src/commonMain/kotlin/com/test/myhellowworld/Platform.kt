@@ -1,0 +1,7 @@
+package com.test.myhellowworld
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
